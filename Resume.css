@@ -50,18 +50,23 @@ table {
  {
 	border: 1px solid black;
 }
+
 .NameHeaderClosed {
-	display: inline-block;
+	width: 220px;
+	display: block;
 	padding-right: 0px;
-	height: 45px;
-	margin: 50px 10px 0px 175px;
+	height: 70px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: #FF7519;
+	text-align: center;
 }
 
 .NameHeaderClosed h1 {
 	font-size: 22px;
 	font-weight: bold;
 	font-family: Sans-seriff TimesNewRoman;
-	color: #5B5B5B;
+	color: #404346;
 	padding-bottom: 5px;
 }
 
@@ -69,14 +74,14 @@ table {
 	font-size: 20px;
 	font-weight: bold;
 	font-family: Sans-seriff TimesNewRoman;
-	color: #85ADFF;
+	color: #FFF;
 	text-align: center;
 }
 
 .ContactHeaderClosed {
-	display: inline-block;
-	text-align: right;
-	height: 45px;
+	display: block;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .ContactHeaderClosed p{
@@ -149,8 +154,8 @@ table {
 
 .ResumeDisplay {
 	display: block;
-	width: 70%;
-	Height: 90%;
+	width: 80%;
+	height: 90%;
 	margin: 45px auto;
 }
 
@@ -174,6 +179,7 @@ hr {
 }
 
 .ProProfile {
+	color: #3C3D3F;
 	display: block;
 	width: 100%;
 	clear: bottom;
@@ -195,6 +201,13 @@ hr {
 	height: 50px;
 	float: left;
 	margin: 5px 10px 5px 0px;
+	position: relative;
+}
+
+.PersImage img{
+	height: 50px;
+	width: 30px;
+
 }
 
 .PersSkills {
@@ -206,12 +219,24 @@ hr {
 th {
 	font-weight: bold;
 	text-align: left;
-	color: black;
-	font-size: 16px;
+	color: #3C3D3F;
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-family: caliri;
+	text-align: left;
+	float: left;
+	font-weight: bold;
 }
 
 .DataTitle {
 	font-weight: bold;
+	color: #3C3D3F;
+}
+
+.DataInfo{
+	color: #5B5B5B;
 }
 
 .LocationRefrencesFooter {
