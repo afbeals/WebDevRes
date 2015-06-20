@@ -129,8 +129,6 @@ table {
 	text-align: right;
 	height: 45px;
 	float: right;
-	position: relative;
-	bottom: 0;
 }
 
 .ContactHeader p{
@@ -148,8 +146,15 @@ table {
 	margin-left: 2px;
 }
 
-.ResumeNoDisplay {
+.ResumeContainerClosed {
 	display: none;
+}
+
+.ResumeContainerOpen {
+	display: block;
+	width: 100%;
+	height: 100%;
+
 }
 
 .ResumeDisplay {
@@ -246,6 +251,9 @@ th {
 	font-size: 14px;
 }
 
+.JobDesc {
+	color: #5B5B5B;
+}
 
 
 
