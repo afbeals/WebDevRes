@@ -51,6 +51,11 @@ table {
 	border: 1px solid black;
 }
 
+body {
+	text-align: center;
+
+}
+
 .NameHeaderClosed {
 	width: 220px;
 	display: block;
@@ -194,10 +199,15 @@ hr {
 	text-align: left;
 	float: left;
 	font-weight: bold;
+	text-align: left;
 }
 
 .PersSummary {
 	color: #5B5B5B;
+	text-align: left;
+}
+.skills {
+	text-align: left;
 }
 
 .PersImage {
@@ -219,6 +229,7 @@ hr {
 	display: inline-block;
 	color: #5B5B5B;
 	margin-top: -5px;
+	text-align: left;
 }
 
 th {
@@ -238,10 +249,16 @@ th {
 .DataTitle {
 	font-weight: bold;
 	color: #3C3D3F;
+	text-align: left;
 }
 
 .DataInfo{
 	color: #5B5B5B;
+	text-align: left;
+}
+
+.career {
+	text-align: left;
 }
 
 .LocationRefrencesFooter {
@@ -253,6 +270,7 @@ th {
 
 .JobDesc {
 	color: #5B5B5B;
+	text-align: left;
 }
 
 
