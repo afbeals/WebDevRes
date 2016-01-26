@@ -33,6 +33,11 @@ body {
 	font-size: 115%;
 	line-height: 1;
 }
+box1{
+	display: inline-block;
+	width: 300px;
+	margin: 0px 15px 0px 15px;
+}
 ol {
 	list-style: none;
 }
