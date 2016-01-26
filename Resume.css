@@ -35,8 +35,11 @@ body {
 }
 .box1{
 	display: inline-block;
-	width: 300px;
-	margin: 0px 15px 0px 15px;
+    	width: 30%;
+    	margin: 0px 15px 0px 15px;
+    	text-align: center;
+    	color: #5B5B5B;
+    	vertical-align: top;
 }
 ol {
 	list-style: none;
